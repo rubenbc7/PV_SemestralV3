@@ -1,0 +1,1008 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 24383 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55974
+Successfully changed project path to: D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3
+D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 114.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005370 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 108.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1847ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1569ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (957ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (574ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.9 MB). Loaded Objects now: 5488.
+Memory consumption went from 220.4 MB to 218.5 MB.
+Total: 11.725500 ms (FindLiveObjects: 1.000200 ms CreateObjectMapping: 0.786700 ms MarkObjects: 9.166900 ms  DeleteObjects: 0.769500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3687.229377 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/AlpineTerrain_color_height.png
+  artifactKey: Guid(422d45012894e2e40aedf865e80f7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/AlpineTerrain_color_height.png using Guid(422d45012894e2e40aedf865e80f7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f62f20b8d3b698add208efc903d307f') in 0.181693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(ed2739dad3158514db03023a2361ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(ed2739dad3158514db03023a2361ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807195b53aa088c4af9c1dea69971668') in 0.565995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.099268 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 01.png
+  artifactKey: Guid(5c97af3a787ae2f448482beeec378ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 01.png using Guid(5c97af3a787ae2f448482beeec378ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42db3c4bef92abaad00df546d4d41edb') in 0.022248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 03.png
+  artifactKey: Guid(60745747e8d998649afc4e58349649cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 03.png using Guid(60745747e8d998649afc4e58349649cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d416af8ef76d14ce04976e8570f5820') in 0.028745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 06.png
+  artifactKey: Guid(d29238e5c2defd649aa4c4c6f7304f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 06.png using Guid(d29238e5c2defd649aa4c4c6f7304f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54d1e291b97f83d1d19424289cb17e4') in 0.031948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 07.png
+  artifactKey: Guid(1837c0e181d06a9468513a28ae91c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 07.png using Guid(1837c0e181d06a9468513a28ae91c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19133524a344a9879c629892563a010d') in 0.030637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 14.png
+  artifactKey: Guid(3a01be0d68a34b64a8723a9134b253e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 14.png using Guid(3a01be0d68a34b64a8723a9134b253e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe6f60bb570aafa8c182e06550d58e4') in 0.030426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 20.png
+  artifactKey: Guid(1a9a628b9e5d64846802de200b8a94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 20.png using Guid(1a9a628b9e5d64846802de200b8a94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dec1ecb77c6ee2ab8c9cb7bf383b78') in 0.033609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Textures/BurnMap.png
+  artifactKey: Guid(6065c97b590ecf345adc393db0342b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Textures/BurnMap.png using Guid(6065c97b590ecf345adc393db0342b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443f1ff9362441fe1be8dddaf8872796') in 0.027264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 05.png
+  artifactKey: Guid(5208e79eb1db4b844a6e24625784ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 05.png using Guid(5208e79eb1db4b844a6e24625784ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ce2b5c1b932a3e07a21f80c89de36f') in 0.027584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/chapel_normal.png
+  artifactKey: Guid(f3ccdfdaefb162d4a807d61d07e9d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/chapel_normal.png using Guid(f3ccdfdaefb162d4a807d61d07e9d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b414e8a0ee5dd8fe3d8fdc9d05360a') in 0.046700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/chapel_basecolor.png
+  artifactKey: Guid(0adb7c44d8d4a2c4a8438b131e0c571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/chapel_basecolor.png using Guid(0adb7c44d8d4a2c4a8438b131e0c571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142450d2309b06ca4620f951ed5fc1de') in 0.029772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 16.png
+  artifactKey: Guid(1e054abaf0a55df48bc97f637d5a1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 16.png using Guid(1e054abaf0a55df48bc97f637d5a1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdc9f16778aedebe0fe39e511d24861') in 0.036579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 18.png
+  artifactKey: Guid(13cc67b535fb7b740960e776f4847140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 18.png using Guid(13cc67b535fb7b740960e776f4847140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8982d8975f690fee0e9de4bc2d462019') in 0.026621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 19.png
+  artifactKey: Guid(44f828c504984184194e856c758bc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 19.png using Guid(44f828c504984184194e856c758bc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff3b9ee57a7a190e1a2313f790ee3a4') in 0.041687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 17.png
+  artifactKey: Guid(c04b398d2056c4249b275fbfa0d6bcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 17.png using Guid(c04b398d2056c4249b275fbfa0d6bcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a623977e038c591c01e05df6aeb331f') in 0.023011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 02.png
+  artifactKey: Guid(ffe37445f156b294093923c10ef9d57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 02.png using Guid(ffe37445f156b294093923c10ef9d57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4105f2b62259cdf06702ba4a2ba5f4d') in 0.023311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_basecolor.png
+  artifactKey: Guid(5dd5b3aff5357f04a9680df191365c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_basecolor.png using Guid(5dd5b3aff5357f04a9680df191365c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d5d2bf3f27045b0b44a7c68b890abe') in 0.026572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94108ef88ec19b33419aab3ab62ee6a8') in 0.035423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_height.png
+  artifactKey: Guid(a842a1892c01caf408802b4edb174206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_height.png using Guid(a842a1892c01caf408802b4edb174206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6110b4ce8f74e3baac4d8f621e7108f') in 0.023689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MedievalTownExteriors/Textures/Building_Texture.tga
+  artifactKey: Guid(a78bc10e4f44759458a318112a8705d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Textures/Building_Texture.tga using Guid(a78bc10e4f44759458a318112a8705d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470cd9ccd39ad80e8380d6776fc135fe') in 0.032047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385254 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_normal.png
+  artifactKey: Guid(a411ab89575a7a0498b26e9d095dcf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_normal.png using Guid(a411ab89575a7a0498b26e9d095dcf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50dd846e9e6ca40531d0c97758b4a31') in 0.034119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_006.tga
+  artifactKey: Guid(e79980ae8df24094c83a025b18fab233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_006.tga using Guid(e79980ae8df24094c83a025b18fab233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a97ca3e428219c4cc4a0487448509b') in 0.038573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Textures/CropNoodleTexture.png
+  artifactKey: Guid(b2b5222a3d5062c4a9b4b5877982a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Textures/CropNoodleTexture.png using Guid(b2b5222a3d5062c4a9b4b5877982a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76db6d39b0510cb0b258ff5d65dcc018') in 0.029578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_001.tga
+  artifactKey: Guid(a8c9083716417c54d8e0a15eaa45e9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_001.tga using Guid(a8c9083716417c54d8e0a15eaa45e9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4273337c8fdc630aab9bbec4199aa12b') in 0.029514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/debris_normal.png
+  artifactKey: Guid(2d0eba4d6bdf7714ea13797f0c03a2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/debris_normal.png using Guid(2d0eba4d6bdf7714ea13797f0c03a2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2042e0ec1d5d822cd80197fc4c9a1e9') in 0.028709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/debris_albedo_smoothness.png
+  artifactKey: Guid(3c5907a090d4dd54e93c235d95436165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/debris_albedo_smoothness.png using Guid(3c5907a090d4dd54e93c235d95436165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39314721d75a4e0a5ba04d6f40abcb91') in 0.029488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/DisplacementRenderTexture.renderTexture
+  artifactKey: Guid(341451773a1ea9441a7d8a273547c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/DisplacementRenderTexture.renderTexture using Guid(341451773a1ea9441a7d8a273547c67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b5cb92726ec963f619c15162486037') in 0.058742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_005.tga
+  artifactKey: Guid(0cc7de19864233f409351e225b87f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_005.tga using Guid(0cc7de19864233f409351e225b87f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5900d7e43b4515a24f213c8894ea00c') in 0.026927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_004.tga
+  artifactKey: Guid(6a24eb102f8070d4e841ba20aa6bbc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_004.tga using Guid(6a24eb102f8070d4e841ba20aa6bbc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e047352043b95a3fd3cb2958438837d0') in 0.032727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_002.tga
+  artifactKey: Guid(46f450684ad2cbc41bbd15b53c25a976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_002.tga using Guid(46f450684ad2cbc41bbd15b53c25a976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6838062f064b2fc2531fa54c94d315a0') in 0.030421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_002.tga
+  artifactKey: Guid(d852bd333f611884db322df86b705534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_002.tga using Guid(d852bd333f611884db322df86b705534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb59efbaad43847395e95dd9627d633') in 0.029572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.684463 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f41fbbfe7dfeb33c5d8e290d3b9ecc4') in 0.040566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd429954b67aa461d64681d3bf2e162') in 0.033934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae6c4fd598db99d4d9e53a52ac4a0c2') in 0.042868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049443 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_grass01.psd
+  artifactKey: Guid(96361e6ffe8b32042bcd8664a1a5a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_grass01.psd using Guid(96361e6ffe8b32042bcd8664a1a5a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6ce73af2bb9bf4e9207107b587e836') in 0.040958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_grass02.psd
+  artifactKey: Guid(337f8c4742f9d0e458e84f5af9edd47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_grass02.psd using Guid(337f8c4742f9d0e458e84f5af9edd47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b670a4433b5841f6307812bc555128c2') in 0.036138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_mushroom03.psd
+  artifactKey: Guid(7f76075bcd070c744b33682724926dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_mushroom03.psd using Guid(7f76075bcd070c744b33682724926dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b362d83b6dbe236e1c8bb690f1924e4b') in 0.028192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.224941 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_rock01.psd
+  artifactKey: Guid(6abc5292ec4ed934baf13e63d1d7b36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_rock01.psd using Guid(6abc5292ec4ed934baf13e63d1d7b36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b3a303bdbd3e8340aab9f04cc748d5') in 0.029314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_tree02.psd
+  artifactKey: Guid(b6190bbfc952a3e44a648d4b0af6e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_tree02.psd using Guid(b6190bbfc952a3e44a648d4b0af6e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c046d7d6fc70786e0604358ee45eac') in 0.121589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/FireRing_baseColor.png
+  artifactKey: Guid(c1b6cdf0d22563e41be301ee22a2173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/FireRing_baseColor.png using Guid(c1b6cdf0d22563e41be301ee22a2173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf7f0f59307a31113d8cad460afbddf') in 0.029599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/Explosion_baseColor.png
+  artifactKey: Guid(5bade0cae2c96ca4984685c278d62725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/Explosion_baseColor.png using Guid(5bade0cae2c96ca4984685c278d62725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30931d4203fd45eb90a15fb3de54c91') in 0.028606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower04.png
+  artifactKey: Guid(64e3618690589fc4e9b66b28e0823c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower04.png using Guid(64e3618690589fc4e9b66b28e0823c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d27559e9fe6fed66a4530c4ba3d0b') in 0.027427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/FireRing_Emissive.png
+  artifactKey: Guid(7588c5ff83acc74488a20b7745cd20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/FireRing_Emissive.png using Guid(7588c5ff83acc74488a20b7745cd20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acff9c9226843e470dbc501c5566dbaa') in 0.031137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Demo/Floor_Texture_001.tga
+  artifactKey: Guid(58523448a09ca104b9ec5b24403e2b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Demo/Floor_Texture_001.tga using Guid(58523448a09ca104b9ec5b24403e2b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5cff5b77742e966553ce8fceac2056') in 0.023960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_treelog02.psd
+  artifactKey: Guid(bf75ee113ee3c674eb62ea8b3ea75c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_treelog02.psd using Guid(bf75ee113ee3c674eb62ea8b3ea75c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e754f146dbb4f781312312b8fa48a7') in 0.031222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower05.png
+  artifactKey: Guid(4c3c2d6d85a2c8245b01f3fbed6f88ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower05.png using Guid(4c3c2d6d85a2c8245b01f3fbed6f88ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3186f2152a6df5b41e8b29824e1d86') in 0.029882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Textures/Flower.png
+  artifactKey: Guid(04d83d5c8cea81d4cafdd77634d8bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Textures/Flower.png using Guid(04d83d5c8cea81d4cafdd77634d8bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4d3f504e8282f87341d747b4b05c19') in 0.035535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower03.png
+  artifactKey: Guid(8c8c9f2dd5d3e464e9b7122bd25e1c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower03.png using Guid(8c8c9f2dd5d3e464e9b7122bd25e1c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4418289fda047881fab376461496bd') in 0.036236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.776249 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower07.png
+  artifactKey: Guid(7e79fe49fce4753429ee4af986fc4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower07.png using Guid(7e79fe49fce4753429ee4af986fc4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048428478e8fd74d2584e1007df191f8') in 0.523146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower14.png
+  artifactKey: Guid(cfe85790109a47946a2cdace468c9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower14.png using Guid(cfe85790109a47946a2cdace468c9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e9b62282ae95cf7f555bfc02a690d8') in 0.393938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_grassColorHeight.png
+  artifactKey: Guid(5a408b30fa1f4234a8e30aec2771a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_grassColorHeight.png using Guid(5a408b30fa1f4234a8e30aec2771a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822d8ebdb00c8072af6eb9661b6ccdb3') in 0.385152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower12.png
+  artifactKey: Guid(979b6ab521731f248a130069f024784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower12.png using Guid(979b6ab521731f248a130069f024784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04181248f7856295913bfdaf8de77ae') in 0.399519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_color.png
+  artifactKey: Guid(2690b81c2605e0d43bf6b3b75902e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_color.png using Guid(2690b81c2605e0d43bf6b3b75902e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f647d40826433363c481871a258ff145') in 0.538878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_treeMask.png
+  artifactKey: Guid(93e8b323f4324a04f8054c3780d35ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_treeMask.png using Guid(93e8b323f4324a04f8054c3780d35ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54891d87a47db7b1b13cd649bec92d61') in 0.404259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower09.png
+  artifactKey: Guid(c687d92190d4f7f498a7c1e69dab110f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower09.png using Guid(c687d92190d4f7f498a7c1e69dab110f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83be9f320526565d601dc35fd1c00bb0') in 0.320387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_LightFlash_001.tga
+  artifactKey: Guid(58c3b7b5fd7b56b48bbb2bf233544637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_LightFlash_001.tga using Guid(58c3b7b5fd7b56b48bbb2bf233544637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38c943bf1482be2d9920970229953d') in 0.260604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower11.png
+  artifactKey: Guid(0df0dd616c0ebe744b6023787049b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower11.png using Guid(0df0dd616c0ebe744b6023787049b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd795188142e124397bb3ef8728f709') in 0.330824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_ShockWave_001.tga
+  artifactKey: Guid(09f404002cc04fb4bbd8a76a45922039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_ShockWave_001.tga using Guid(09f404002cc04fb4bbd8a76a45922039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe3d965ec92bb80c2e9e5e19dda2d9f') in 0.260058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_StateIcon_001.tga
+  artifactKey: Guid(ed85e9283e3bc7044afbd61ef8e54c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_StateIcon_001.tga using Guid(ed85e9283e3bc7044afbd61ef8e54c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a978208cbdf90e62d76a8995bbb82f') in 0.247419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.212692 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84214f197f853f9c0243f2e0d5dde6d8') in 0.400622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362581 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dfdc16e0d729960012214ecd2f75cb') in 0.454495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house2_basecolor.png
+  artifactKey: Guid(9b563567ea7c29f49ada1001ceb74519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house2_basecolor.png using Guid(9b563567ea7c29f49ada1001ceb74519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342c7cc19e52421400f22cdd643c540b') in 0.336703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Sprite/MaggieFace.png
+  artifactKey: Guid(b4895c26dedd91c46a47999220a9fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sprite/MaggieFace.png using Guid(b4895c26dedd91c46a47999220a9fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151540e3a51c881b52a081112903776c') in 0.458040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.300475 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f32195b538279f7c224fc53a31ce37e') in 0.035003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_normal.png
+  artifactKey: Guid(a4da709842fdd51459d8dfc3d6823008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_normal.png using Guid(a4da709842fdd51459d8dfc3d6823008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abe406c3699cba327b368bab1b31c4') in 0.044118 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.379 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2380ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1985ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (478ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (1077ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (734ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4867 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.8 MB). Loaded Objects now: 5614.
+Memory consumption went from 216.6 MB to 214.8 MB.
+Total: 6.972500 ms (FindLiveObjects: 0.664000 ms CreateObjectMapping: 0.702300 ms MarkObjects: 5.153300 ms  DeleteObjects: 0.450600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 246.328384 seconds.
+  path: Assets/Materials/ground.mat
+  artifactKey: Guid(d2c48a084a0273b4bbab5e28d439abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground.mat using Guid(d2c48a084a0273b4bbab5e28d439abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b5e091d6134bfd50db79e3d8dc3414') in 4.406453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e1794afd2fa90281a0e4b394cb256a') in 0.212943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Materials/props.mat
+  artifactKey: Guid(35a39522d20b10e41a88552ab62e9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/props.mat using Guid(35a39522d20b10e41a88552ab62e9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b798fd0f1ed48f9c6c2b0b1da718574') in 3.717317 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2516ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2100ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (470ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (1214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (817ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4868 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.8 MB). Loaded Objects now: 5671.
+Memory consumption went from 217.4 MB to 215.5 MB.
+Total: 11.949500 ms (FindLiveObjects: 0.909600 ms CreateObjectMapping: 0.940200 ms MarkObjects: 9.102200 ms  DeleteObjects: 0.993200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.566363 seconds.
+  path: Assets/UI/GameUI.uxml
+  artifactKey: Guid(33074bc369dd6604f8c7823692bea750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/GameUI.uxml using Guid(33074bc369dd6604f8c7823692bea750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9203cbc255714bbf0616b509eb129d2') in 0.040388 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2470ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2080ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (1193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (809ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4867 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.8 MB). Loaded Objects now: 5686.
+Memory consumption went from 217.3 MB to 215.4 MB.
+Total: 10.494900 ms (FindLiveObjects: 0.632200 ms CreateObjectMapping: 0.797300 ms MarkObjects: 8.490600 ms  DeleteObjects: 0.572700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 954.826847 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att01.fbx
+  artifactKey: Guid(2b64c472b4182df44a51533db0b6bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att01.fbx using Guid(2b64c472b4182df44a51533db0b6bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee15b19f664f1eeefd1c39d48e3a2e77') in 1.529508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_b.prefab
+  artifactKey: Guid(2cfb651bea8d26240aa4aa462de9d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_b.prefab using Guid(2cfb651bea8d26240aa4aa462de9d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4672ac0606637453c718b1977aecd1') in 0.058077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_d.prefab
+  artifactKey: Guid(60a80932f15a9b5428719cf63049a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_d.prefab using Guid(60a80932f15a9b5428719cf63049a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ee4288cca417f0cf35fbeecadcde0e') in 0.043092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Cart_a.fbx
+  artifactKey: Guid(84e347959058f664f8aa7ea1fbe027c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Cart_a.fbx using Guid(84e347959058f664f8aa7ea1fbe027c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df6d828b1bce1b6cc6c427b862d898b') in 0.111065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Barrel.fbx
+  artifactKey: Guid(9cb9de2fa58928944a5ced7e6b047238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Barrel.fbx using Guid(9cb9de2fa58928944a5ced7e6b047238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7532250ba85075a8ba717877114287b') in 0.054801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_d_collider.fbx
+  artifactKey: Guid(cfc4f2e2573cec443921be97e48247c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_d_collider.fbx using Guid(cfc4f2e2573cec443921be97e48247c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a46a431262af56cd067d692dbced46') in 0.064003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_b_collider.fbx
+  artifactKey: Guid(190601c6ad4761d45b65274b5f33fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_b_collider.fbx using Guid(190601c6ad4761d45b65274b5f33fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5116ac91127290083f040efc84a1a3') in 0.052117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_f.prefab
+  artifactKey: Guid(1e44e02e77bb6764c97f423cc75574da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_f.prefab using Guid(1e44e02e77bb6764c97f423cc75574da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce076dcb2a9794782bf8e0b1402fcaa') in 0.036883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Cart_Wheel_a.fbx
+  artifactKey: Guid(24604ce785089a84fac68808959ebd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Cart_Wheel_a.fbx using Guid(24604ce785089a84fac68808959ebd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd623f326970190ef5c0d23d1bc04057a') in 0.052552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d09721a1e4e4fd1c182af384df372af') in 0.097781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_a.prefab
+  artifactKey: Guid(5953515103f4b3c4dbd003cda1894775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_a.prefab using Guid(5953515103f4b3c4dbd003cda1894775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bce83502f799fcdbde45db5f8d99778') in 0.044193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att02.fbx
+  artifactKey: Guid(af96692b22340aa4d85c110300625915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att02.fbx using Guid(af96692b22340aa4d85c110300625915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aba6ea571d660a796feb27332820a3d') in 0.101028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@jump.fbx
+  artifactKey: Guid(19993cdb63a2a2147b66329178c2835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@jump.fbx using Guid(19993cdb63a2a2147b66329178c2835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3cb19fff825bfd641de80475f5d24a') in 0.100390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ExampleAssets/Prefabs/Construction Light Low.prefab
+  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/Construction Light Low.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde4e710b975817ed8aed1a0e3be34bf') in 9.707147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Low Poly Forest Set/Prefabs/Tree 04.prefab
+  artifactKey: Guid(44faca14411fed94f9b370933402fff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Prefabs/Tree 04.prefab using Guid(44faca14411fed94f9b370933402fff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc1f441ede0d0a41151384bd85f4ce4') in 5.250918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att03.fbx
+  artifactKey: Guid(5702ae58e9a0879479b5fa34ab6d7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att03.fbx using Guid(5702ae58e9a0879479b5fa34ab6d7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ba75ad4c51a79ecb4d3bfeef94a0ad') in 0.121530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 3.fbx
+  artifactKey: Guid(27b3376f8e30c6f48a409559c5142eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 3.fbx using Guid(27b3376f8e30c6f48a409559c5142eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d01a9cef2a3d023ddd381a253e61d2') in 0.053311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@die.fbx
+  artifactKey: Guid(6fb331b6dd422274a9c2e0f6c27f1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@die.fbx using Guid(6fb331b6dd422274a9c2e0f6c27f1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140fe5f2f2283d3e0a5ccaeb212d3ad8') in 0.101259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_e.prefab
+  artifactKey: Guid(b446cb707004e444d8324ec6f1c8888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_e.prefab using Guid(b446cb707004e444d8324ec6f1c8888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f562282946c61580ae467f9e709747') in 0.097755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Models/Circle.fbx
+  artifactKey: Guid(3286eea8499ff0144ad07cd2de15a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Models/Circle.fbx using Guid(3286eea8499ff0144ad07cd2de15a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca531f69fcbf96ac83e2c275e557a83') in 0.055283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 2.fbx
+  artifactKey: Guid(4f5678a0333bc1646b83e6417712c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 2.fbx using Guid(4f5678a0333bc1646b83e6417712c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbca8167554ecdf5b7f6a7445440170') in 0.053707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Barrel.prefab
+  artifactKey: Guid(28f91da9598e39e419f3030684719fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Barrel.prefab using Guid(28f91da9598e39e419f3030684719fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e1350753c337c069a06fd1a289c9f7') in 0.037796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_c_collider.fbx
+  artifactKey: Guid(2504be7eb69b8d64eb52456b112b1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_c_collider.fbx using Guid(2504be7eb69b8d64eb52456b112b1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f233f2a4f660eb5857f0f13c93374848') in 0.046339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_b.fbx
+  artifactKey: Guid(44d5a16e059aef84b864c5ddf0ebcdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_b.fbx using Guid(44d5a16e059aef84b864c5ddf0ebcdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905f021c73e9000c30daa81e9e4333f6') in 0.062218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Cart_b.prefab
+  artifactKey: Guid(a5b31c0f3705bb44d8ad2d28adacc898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Cart_b.prefab using Guid(a5b31c0f3705bb44d8ad2d28adacc898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e2ce5098ff9bc62c508846390ea631') in 0.044194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/chapel.fbx
+  artifactKey: Guid(1d28f4a883eb89c4f8b375ded80e7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/chapel.fbx using Guid(1d28f4a883eb89c4f8b375ded80e7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a398e2adcde81bbb4ac29de0df92d') in 0.177825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/FBX/archergirl@set.fbx
+  artifactKey: Guid(42db1ab11db83cd41811db2e92f5dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/FBX/archergirl@set.fbx using Guid(42db1ab11db83cd41811db2e92f5dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a15a50792690e2691c3f06c51c6f81') in 0.094062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_d.fbx
+  artifactKey: Guid(4d3f75b896990d94093409da2894e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_d.fbx using Guid(4d3f75b896990d94093409da2894e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af6804f6c2672ccb1ee61cab7a770ad') in 0.049819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 1.fbx
+  artifactKey: Guid(f86b60e3e72f4eb4993e95336d5e2a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 1.fbx using Guid(f86b60e3e72f4eb4993e95336d5e2a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba192d9bac67b3b19413f095441b0c28') in 0.052157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Crate.fbx
+  artifactKey: Guid(eb4fdd308d7e5e6409868e9329ecf8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Crate.fbx using Guid(eb4fdd308d7e5e6409868e9329ecf8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e3c9f46743a1e67cda015491128857') in 0.053401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Tree Log 02.FBX
+  artifactKey: Guid(eb2d1b000e3aa8f4996a3ccfb97b5ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Tree Log 02.FBX using Guid(eb2d1b000e3aa8f4996a3ccfb97b5ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5fc7dfb1ba937a7d2ce0a9e2a816a3') in 0.074989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Tree 04.FBX
+  artifactKey: Guid(b90c3e3e47dd29444ba69f1e1013b67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Tree 04.FBX using Guid(b90c3e3e47dd29444ba69f1e1013b67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7844a0ed6b23b00419dfede7afda62a0') in 0.114415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Tree Log 04.FBX
+  artifactKey: Guid(21aa9a0681800ea40ba13fd58af8dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Tree Log 04.FBX using Guid(21aa9a0681800ea40ba13fd58af8dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9564bdbf1488f417144bde9e7eeabab5') in 0.071522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@damage.fbx
+  artifactKey: Guid(730cc667ad5378242a4bad3fc02dca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@damage.fbx using Guid(730cc667ad5378242a4bad3fc02dca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd187258c08aff43265e75ff6632971d3') in 0.096703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Tree 02.FBX
+  artifactKey: Guid(0ac8faaef904cb4408979dec1b6a91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Tree 02.FBX using Guid(0ac8faaef904cb4408979dec1b6a91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6cada2450733407faaaa0ae0ffbb47') in 0.062915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_f.fbx
+  artifactKey: Guid(29e40ab38a9e80c4c97af51e1991328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_f.fbx using Guid(29e40ab38a9e80c4c97af51e1991328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b845996f6e3271b23e07adc4c4a436bd') in 0.063853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Cart_Wheel_b.prefab
+  artifactKey: Guid(acd706c9351b77a4c80570beb022be19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Cart_Wheel_b.prefab using Guid(acd706c9351b77a4c80570beb022be19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9bcaf1daa99f67e0cb857ea9a011b1') in 0.036955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_c.prefab
+  artifactKey: Guid(155108fff53c29e45ba3c3bb0c40e6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_c.prefab using Guid(155108fff53c29e45ba3c3bb0c40e6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07ef9e022a2bf28a32b01da8c6074a3') in 0.037222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Prefabs/Low Poly Tree 3.prefab
+  artifactKey: Guid(67eb63503a2ac054985c2cacea411d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Prefabs/Low Poly Tree 3.prefab using Guid(67eb63503a2ac054985c2cacea411d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545bdc6b610c0a090a8ae920e605d714') in 0.033803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/prefabs/archergirl@set.prefab
+  artifactKey: Guid(5f86eb4474aa70744a48265d6a91c6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/prefabs/archergirl@set.prefab using Guid(5f86eb4474aa70744a48265d6a91c6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acbbdd777c7bc2b06642f056c63993e') in 0.143154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Demo/BG_Floor_001.FBX
+  artifactKey: Guid(ea0a635f86ec83340a83854458276187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Demo/BG_Floor_001.FBX using Guid(ea0a635f86ec83340a83854458276187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6820d15d4e0f643b6233fc18b2af7ac7') in 0.048886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_e.fbx
+  artifactKey: Guid(72d774634d8ef6b4b964b120daf28ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_e.fbx using Guid(72d774634d8ef6b4b964b120daf28ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41b8bff6ffed2bb7c621b34d5721d7c') in 0.059819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Cart_Wheel_a.prefab
+  artifactKey: Guid(ffd08d298f9a9e44e9dd936fb4e3a38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Cart_Wheel_a.prefab using Guid(ffd08d298f9a9e44e9dd936fb4e3a38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3de03d84fc0b0f2f278811b8f3449d') in 0.034619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ControllerPrompts/Example-Prefabs/B-Button(xbox) .prefab
+  artifactKey: Guid(7a1622298c7f5e74e9302bad00af646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControllerPrompts/Example-Prefabs/B-Button(xbox) .prefab using Guid(7a1622298c7f5e74e9302bad00af646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57723b9e1e7a1c8539beb47883584bf') in 0.031695 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

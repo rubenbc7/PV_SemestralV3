@@ -1,0 +1,228 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 24383 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55974
+Successfully changed project path to: D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3
+D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 183.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/rpg-system-semestral-3/rpg-system-semestral-3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009393 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 196.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1523ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1035ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (196ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 154.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2783ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2371ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (858ms)
+				ProcessInitializeOnLoadMethodAttributes (173ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5031 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.9 MB). Loaded Objects now: 5495.
+Memory consumption went from 221.4 MB to 219.5 MB.
+Total: 17.268300 ms (FindLiveObjects: 0.773600 ms CreateObjectMapping: 1.880700 ms MarkObjects: 13.634000 ms  DeleteObjects: 0.977600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3702.032606 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_ColorTable_001.tga
+  artifactKey: Guid(52fafec87d8cd114cbccc4b8de0733f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_ColorTable_001.tga using Guid(52fafec87d8cd114cbccc4b8de0733f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9a080d329daca2cc68468b2fab8fca') in 0.430318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower15.png
+  artifactKey: Guid(7c6ff0090767f754a98146e91198a773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower15.png using Guid(7c6ff0090767f754a98146e91198a773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7d608c86a009c25dfab599ac9d19f7') in 0.236198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Grass/Flowers.png
+  artifactKey: Guid(151ba325d21f1584cac3e27b451eeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Grass/Flowers.png using Guid(151ba325d21f1584cac3e27b451eeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951dab746b76733bed465a48b4e35a8') in 0.294939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.175119 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+  artifactKey: Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif using Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341dbbc82115ea85df8a3a5812c3136c') in 0.387771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+  artifactKey: Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif using Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7d3fb91f5d974f4a113716d92dd1cb') in 0.323244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037388 seconds.
+  path: Assets/Textures/Sprite/LisaFace.png
+  artifactKey: Guid(03eb5d19cc35c084a8a1fef552a22a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sprite/LisaFace.png using Guid(03eb5d19cc35c084a8a1fef552a22a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573ab96164c162c9e300186380173870') in 0.500403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house1_basecolor.png
+  artifactKey: Guid(3756b07fa3a68b74698545039577da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house1_basecolor.png using Guid(3756b07fa3a68b74698545039577da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ba5b652d70ffaadfca044b8ca33b5c') in 0.377826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyFarm_basecolor.png
+  artifactKey: Guid(105996b93f62b55419d9104b821dd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyFarm_basecolor.png using Guid(105996b93f62b55419d9104b821dd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5b905a422a665bb899c78e07312633') in 0.362133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyTank_occlusion.png
+  artifactKey: Guid(7050bd69f824c3c4c96a90457b364124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyTank_occlusion.png using Guid(7050bd69f824c3c4c96a90457b364124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631644b2a2270efec66eb71de69d26ca') in 0.455569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.843712 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9267d4989e56a852624a93167abc7934') in 0.034562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_albedo_smoothness.png
+  artifactKey: Guid(00d8db00f8f46374bbe567166b734f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_albedo_smoothness.png using Guid(00d8db00f8f46374bbe567166b734f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c926bb511229f78215d59acadb8a5') in 0.077733 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
